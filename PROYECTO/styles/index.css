@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "light";
+    src: url("../fuentes/MyriadPro-Light.otf");
+}
+
+@font-face {
+    font-family:"regular" ;
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+}
+
+.fondo{
+    position: absolute;
+}
