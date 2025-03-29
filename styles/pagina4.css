@@ -1,10 +1,6 @@
-@keyframes fadeInOut {
-    0% { opacity: 0; }   /* Comienza invisible */
-    50% { opacity: 1; }  /* Se hace visible */
-    100% { opacity: 0; } /* Se vuelve a ocultar */
+body{
+ background-color: black;
 }
-
-
 @font-face {
     font-family: "light";
     src: url("../fuentes/MyriadPro-Light.otf");
@@ -15,38 +11,42 @@
     src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
 }
 
-body{
-    background-color: black;
-}
 .fondo {
     position: relative; 
-    width: 100%;
+    width: 0%;
     height: 0;
     padding-top: 0%; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0%;
+    transform: scale(1.0); 
 }
-
-.icono{
+.rectangulo  {
     position: relative;
-    top: -982px;
-    left: 962px;
-    width: 197px;
-    height: 176px;
-    animation: fadeInOut 1s infinite;
+    top: -1065px;
+    left: 700px;
+    width: 45vw;  
+    height: 50vh; 
+    background-color: white; 
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logomd {
+    position: relative;
+    top: -180px ;
+    width: 10%; /* La imagen ocupa el 50% del tamaño del rectángulo */
+    
+    
+    
 }
 @media screen and (max-width: 430px) {
     .fondo {
         padding-top: 0%; /* Ajusta para formato vertical */
         height: -500vh;
         transform: scale(2.1); 
-    }
-
-    .icono {
-        
-        top: -800px; /* Ajusta su posición */
-        left: 430px;
     }
 }
