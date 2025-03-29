@@ -1,52 +1,193 @@
-body{
- background-color: black;
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 @font-face {
     font-family: "light";
     src: url("../fuentes/MyriadPro-Light.otf");
 }
 
 @font-face {
-    font-family:"regular" ;
-    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+    font-family: "regulartext";
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF") format("opentype");
 }
 
 .fondo {
-    position: relative; 
-    width: 0%;
-    height: 0;
-    padding-top: 0%; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagenes/fondo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0%;
-    transform: scale(1.0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.rectangulo  {
+
+.rectangulo {
+    
+    width: 45vw;
+    height: 59vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+   
+}
+
+.logomd img {
     position: relative;
-    top: -1065px;
-    left: 700px;
-    width: 45vw;  
-    height: 50vh; 
-    background-color: white; 
-    border-radius: 20px; 
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    display: block;
+    top: -90px;
+}
+
+.texto1 {
+    font-family: "regulartext", sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    top: -100px;
+}
+.pq {
+    font-family: "ligth", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    top: -100px;
+    
+}
+.us {
+    font-family: "ligth", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    top: -100px;
+    left: -300px;
+    
+}
+.cajita {
+    width: 40vw; /* 40% del ancho de la pantalla */
+    height: 5vh; /* 30% de la altura de la pantalla */
+    border: 2px solid rgb(133, 131, 131); /* Borde negro */
+    border-radius: 20%; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.logomd {
+    text-align: center;
+    top: -80px;
     position: relative;
-    top: -180px ;
-    width: 10%; /* La imagen ocupa el 50% del tamaño del rectángulo */
-    
-    
+}
+.contraseña {
+    font-family: "ligth", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    top: -60px;
+    left: -300px;
     
 }
+.cajita2 {
+    width: 40vw; /* 40% del ancho de la pantalla */
+    height: 5vh; /* 30% de la altura de la pantalla */
+    border: 2px solid rgb(133, 131, 131); /* Borde negro */
+    border-radius: 20%; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: -50px;
+    position: relative;
+}
+.boton{
+    
+        background-color: rgb(243, 167, 25); /* Color naranja */
+        color: white; /* Texto en blanco */
+        font-size: 18px; /* Tamaño del texto */
+        border: none; /* Sin borde */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 12px 24px; /* Espaciado interno */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+        text-align: center;
+        display: inline-block;
+        width: 250px;
+        position: relative;
+        top: -30px;
+}
+.boton:hover {
+            background-color: darkorange;
+            transform: scale(1.05);
+        }
+
+.boton:active {
+        cursor: progress; /* Cambia el cursor al hacer clic */
+ }   
+        
+
+.textico{
+    font-family: "ligth", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    top: -100px;
+       
+}
+    
+
 @media screen and (max-width: 430px) {
-    .fondo {
-        padding-top: 0%; /* Ajusta para formato vertical */
-        height: -500vh;
-        transform: scale(2.1); 
+    .rectangulo {
+        width: 90vw;
+        height: 65vh;
+        padding: 15px;
+    }
+
+    .logomd img {
+        width: 60px;
+        top: -30px;
+    }
+
+    .texto1 {
+        font-size: 24px;
+        top: -30px;
+    }
+
+    .pq, .us, .contraseña, .textico {
+        font-size: 14px;
+        top: -30px;
+        text-align: center;
+    }
+
+    .cajita, .cajita2 {
+        width: 90%;
+        height: 5vh;
+        top: -20px;
+    }
+
+    .boton {
+        font-size: 14px;
+        width: 90%;
+        padding: 8px 16px;
+        top: -10px;
     }
 }
