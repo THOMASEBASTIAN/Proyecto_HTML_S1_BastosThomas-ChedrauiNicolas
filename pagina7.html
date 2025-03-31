@@ -1,110 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+    <link rel="stylesheet" href="./styles/pagina7.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel de Indicadores</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
 
     <header>
-        <button class="refresh">🔄 Refrescar</button>
-        <button class="delete">🗑 Eliminar</button>
-        <button class="report">⚠ Reportar</button>
-        <button class="help">❓ Ayuda</button>
+        <div class="mas"><img src="./imagenes/bolitamas.png" alt=""></div>
+        <div class="menos"><img src="./imagenes/escarabajo.png" alt=""></div>
+        <div class="campanita"><img src="./imagenes/campanita.png" alt=""></div> 
+        <div class="pedro"><img src="./imagenes/fotoperfilmodificada.png" alt=""></div>
+        <div class="logo"><img src="./imagenes/kairo.png" alt=""></div>
+        <div class="engrananje"><img src="./imagenes/ajustes.png" alt=""></div>
+        <div class="interrogacion"><img src="./imagenes/bolitainterrogacion.png" alt=""></div>
+        <div class="basura"><img src="./imagenes/basura.png" alt=""></div>
+        <div class="refrescar"><img src="./imagenes/reload.png" alt=""></div>
     </header>
 
-    <main>
-        <h1>Panel de Indicadores</h1>
-        <p>Aquí puedes visualizar los indicadores propuestos y añadidos por tu equipo de trabajo.</p>
+    <h1 class="titulo">Panel de Indicadores</h1>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Indicador</th>
-                    <th>Descripción</th>
-                    <th>Categoría</th>
-                    <th>Fecha de Inicio</th>
-                    <th>Fecha de Terminación</th>
-                    <th>Fórmula</th>
-                    <th>Frecuencia</th>
-                    <th>Cumplimiento</th>
-                    <th>Área</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Modelado 3D</td>
-                    <td>Interés por dise...</td>
-                    <td>Baja</td>
-                    <td>12/05/21</td>
-                    <td>12/12/21</td>
-                    <td>Met.Ágil</td>
-                    <td>1/4</td>
-                    <td class="red">31%</td>
-                    <td>Marketing</td>
-                </tr>
-                <tr>
-                    <td>Finca Galeón</td>
-                    <td>Diseño de maqu...</td>
-                    <td>Baja</td>
-                    <td>12/04/21</td>
-                    <td>12/05/21</td>
-                    <td>Met.Ágil</td>
-                    <td>1/4</td>
-                    <td class="red">25%</td>
-                    <td>Diseño</td>
-                </tr>
-                <tr>
-                    <td>Colegios Privados</td>
-                    <td>Se busca llegar a los...</td>
-                    <td>Media</td>
-                    <td>24/04/21</td>
-                    <td>12/11/21</td>
-                    <td>Met.Fibo</td>
-                    <td>1/4</td>
-                    <td class="green">80%</td>
-                    <td>Developers</td>
-                </tr>
-                <tr>
-                    <td>Electrodomésticos</td>
-                    <td>Ventas de electro...</td>
-                    <td>Media</td>
-                    <td>12/04/21</td>
-                    <td>12/09/21</td>
-                    <td>N/A</td>
-                    <td>1/3</td>
-                    <td class="red">32%</td>
-                    <td>Gerencia</td>
-                </tr>
-                <tr>
-                    <td>Estrato 2 - Floridablanca</td>
-                    <td>Impacto en los sec...</td>
-                    <td>Alta</td>
-                    <td>12/04/21</td>
-                    <td>12/09/21</td>
-                    <td>Met.Expo</td>
-                    <td>1/4</td>
-                    <td class="green">95%</td>
-                    <td>Marketing</td>
-                </tr>
-                <tr>
-                    <td>Jóvenes en Acción</td>
-                    <td>Impacto en los sec...</td>
-                    <td>Alta</td>
-                    <td>15/02/21</td>
-                    <td>09/11/21</td>
-                    <td>Met.Expo</td>
-                    <td>1/2</td>
-                    <td class="orange">75%</td>
-                    <td>Producción</td>
-                </tr>
-            </tbody>
-        </table>
+    <p class="texto">Aqui puedes visualizar los indicadores propuestos y añadidos por tu equipo de trabajo.</p>
 
-        <button class="add">Añadir Elementos</button>
-    </main>
+    <div class="titulos">
+        <h1 class="ind1">Indicador</h1>
+        <h1 class="ind1">Descripción</h1>
+        <h1 class="ind1">Categoría</h1>
+        <h1 class="ind1">Fecha de Inicio    </h1>
+        <h1 class="ind1">Fecha de Terminación</h1>
+        <h1 class="ind1">Fórmula</h1>
+        <h1 class="ind1">Frecuencia</h1>
+        <h1 class="ind1">Cumplimiento</h1>
+        <h1 class="ind1">Área</h1>
+    </div>
+
+    <div class="block1">
+        <p class="cell">Modelado 3D</p>
+        <p class="cell">Interes por dise.........</p>
+        <p class="cell">Baja</p>
+        <p class="cell">12/05/21</p>
+        <p class="cell">12/12/21</p>
+        <p class="cell">Met.Agil</p>
+        <p class="cell">1/4</p>
+
+        <div class="progress-bar">
+        <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+        </div>
+
+        <p class="class">Marketing</p>
+    </div>
+
+    <div class="block2">
+        <p class="cell">Finca Galeon</p>
+        <p class="cell">Diseño de maque.......</p>
+        <p class="cell">Baja</p>
+        <p class="cell">12/04/21</p>
+        <p class="cell">12/12/21</p>
+        <p class="cell">Met.Agil</p>
+        <p class="cell">1/4</p>
+        
+        <div class="progress-bar2">
+        <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+        </div>
+
+        <p class="class">Diseño</p>
+    </div>
+
+    <div class="block3">
+        <p class="cell">colegios privados</p>
+        <p class="cell">Se busca llegar a los....</p>
+        <p class="cell">Media</p>
+        <p class="cell">24/04/21</p>
+        <p class="cell">12/11/21</p>
+        <p class="cell">Met.Fibo</p>
+        <p class="cell">1/4</p>
+
+        <div class="progress-bar3">
+            <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+            </div>
+
+        <p class="class">Developers</p>
+    </div>
+
+     <div class="block4">
+        <p class="cell">Electrodomesticos</p>
+        <p class="cell">Ventas de electro......</p>
+        <p class="cell">Media</p>
+        <p class="cell">12/04/21</p>
+        <p class="cell">12/09/21</p>
+        <p class="cell">N/A</p>
+        <p class="cell">1/3</p>
+
+        <div class="progress-bar4">
+            <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+            </div>
+            
+        <p class="class">gerencia</p>
+    </div>
+
+    <div class="block5">
+        <p class="cell">Estato 2 Floridablanca</p>
+        <p class="cell">Impacto de los sec.....</p>
+        <p class="cell">Alta</p>
+        <p class="cell">12/04/21</p>
+        <p class="cell">12/09/21</p>
+        <p class="cell">Met.Expo</p>
+        <p class="cell">1/4</p>
+        
+        <div class="progress-bar5">
+            <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+            </div>
+            
+
+        <p class="class">Marketing</p>
+    </div>
+
+    <div class="block6">
+        <p class="cell">Jovenes en Accion</p>
+        <p class="cell">impacto en los sec.....</p>
+        <p class="cell">Alta</p>
+        <p class="cell">15/02/21</p>
+        <p class="cell">09/12/21</p>
+        <p class="cell">Met.Agil</p>
+        <p class="cell">1/4</p>
+        
+        <div class="progress-bar6">
+            <progress value="75" min="10" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+            </div>
+            
+
+        <p class="class">Diseño</p>
+    </div>
 
 </body>
 </html>

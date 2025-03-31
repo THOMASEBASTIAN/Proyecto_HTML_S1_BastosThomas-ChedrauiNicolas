@@ -1,76 +1,353 @@
-body {
-    font-family: Arial, sans-serif;
+@font-face {
+    font-family:"regular" ;
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+}
+
+body{
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0;
-    padding: 20px;
-    background-color: #f8f8f8;
 }
 
-header {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    margin-bottom: 20px;
+header{
+    position: relative;
+    border: 1px solid black;
 }
 
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+.mas img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 31px;
+    height: 31px;
 }
 
-.refresh { background-color: #f1c40f; }
-.delete { background-color: #e74c3c; color: white; }
-.report { background-color: #e67e22; color: white; }
-.help { background-color: #3498db; color: white; }
-
-main {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.menos img{
+    position: relative;
+    top: -30px;
+    left: 200px;
+    width: 34px;
+    height: 38px;
 }
 
-h1 {
+.campanita img{
+    position: relative;
+    top: 20px;
+    left: 1500px;
+    width: 21px;
+    height: 20px;
+}
+
+.pedro img{
+    position: relative;
+    top: -95px;
+    left: 1760px;
+    width: 53px;
+    height: 53px;
+
+}
+
+.logo img{
+    position: relative;
+    top: -150px;
+    left: 950px;
+    width: 42px;
+    height: 37px;
+}
+
+.engranaje img{
+    position: relative;
+    top: 20px;
+    left: 1450px;
+    width: 19px;
+    height: 19px;
+}
+
+.interrogacion img{
+    position: relative;
+    top: -50px;
+    width: 34px;
+    height: 34px;
+    left: 1489px;
+}
+
+.basura img{
+    position: relative;
+    top: -270px;
+    width: 25px;
+    height: 32px;
+    left: 450px;
+}
+
+.refrescar img{
+    position: relative;
+    top: 10px;
+    width: 27px;
+    height: 27px;
+    left: 423px;
+}
+
+.titulo{
+    font-family: "regular";
+    position: relative;
+    left:850px;
+    width: 346px;
+    height: 40px;
+}
+
+.texto{
+    font-family: "regular";
+    position: relative;
+    left: 680px;
+}
+
+.titulos{
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    gap: 50px;
+    width: 1700px;
+    height:81px ;
+}
+
+.ind1{
+    font-family:"regular";
+    font-size: 20px;
+}
+
+.block1{
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block1 {
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: -15px;
+}
+
+.cell {
+    padding: 5px;
     text-align: center;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-
-th {
-    background-color: #f4f4f4;
 }
 
 .red {
     color: red;
-    font-weight: bold;
 }
 
-.green {
+.green{
     color: green;
+}
+
+.class {
     font-weight: bold;
 }
 
-.orange {
-    color: orange;
-    font-weight: bold;
+
+
+.block2{
+    border: 1xp solid #000000;
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
 }
 
-.add {
-    display: block;
-    margin: 20px auto;
-    background-color: #e67e22;
-    color: white;
-    font-size: 16px;
+.block2{
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: 10px;
 }
+
+.block3{
+    border: 1xp solid #000000;
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block3{
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: 30px;
+}
+
+.block4{
+    border: 1xp solid #000000;
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block4{
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: 50px;
+}
+
+.block5{
+    border: 1xp solid #000000;
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block5{
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: 70px;
+}
+
+.block6{
+    border: 1xp solid #000000;
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block6{
+    border: 1px solid rgb(133, 133, 133);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: 90px;
+}
+
+
+.progress-bar {
+display: flex;
+justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(230, 38, 38) 95%, pink 0);    
+  }
+  
+.progress-bar::before {
+content: "31%";
+}
+
+  .progress-bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(230, 38, 38) 95%, pink 0);    
+  }
+  
+  .progress-bar2::before {
+    content: "25%";
+  }
+  
+  .progress-bar3 {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 15px;
+      
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: 
+          radial-gradient(closest-side, white 79%, transparent 80% 100%),
+          conic-gradient(rgb(64, 200, 18) 95%, rgb(227, 247, 226) 0);    
+      }
+      
+    .progress-bar3::before{
+        content: "80%";
+    }
+
+    .progress-bar4 {
+        display: flex;
+        justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 15px;
+          
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: 
+              radial-gradient(closest-side, white 79%, transparent 80% 100%),
+              conic-gradient(rgb(230, 38, 38) 95%, pink 0);     
+          }
+          
+        .progress-bar4::before{
+            content: "32%";
+        }
+
+        .progress-bar5 {
+            display: flex;
+            justify-content: center;
+                align-items: center;
+                position: relative;
+                top: 15px;
+              
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: 
+                  radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                  conic-gradient(rgb(64, 200, 18) 95%, rgb(227, 247, 226) 0);    
+              }
+              
+            .progress-bar5::before{
+                content: "95%";
+            }
+
+            .progress-bar6 {
+                display: flex;
+                justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    top: 15px;
+                  
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: 
+                      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                      conic-gradient(rgb(230, 38, 38) 95%, pink 0);     
+                  }
+                  
+                .progress-bar6::before{
+                    content: "32%";
+                }
+  
+  
