@@ -1,87 +1,109 @@
-body{
-    background-color: black;
-}
+body {  
+    background-color: black;  
+}  
 
-@font-face {
-    font-family:"light" ;
-    src: url("../fuentes/MyriadPro-Light.otf");
-}
+@font-face {  
+    font-family: "light";  
+    src: url("../fuentes/MyriadPro-Light.otf");  
+}  
 
-@font-face {
-    font-family:"regular" ;
-    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
-}
+@font-face {  
+    font-family: "regular";  
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");  
+}  
 
-.fondo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("../imagenes/fondo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.fondo {  
+    position: absolute;  
+    width: 100%;  
+    height: 100%;  
+    background-image: url("../imagenes/fondo.png");  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
 
-.rectangulo{
-    position: relative;
-    left: -50%;
-    width: 45vw;
-    height: 59vh;
-    background-color: white;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 10;
-    padding: 20px;
+.rectangulo {  
+    position: relative;  
+    left: -50%;  
+    width: 936px; /* Cambiado a 936px */  
+    height: 549px;  
+    background-color: white;  
+    border-radius: 100px;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;  
+    z-index: 10;  
+    padding: 20px;  
+}  
 
-}
+.logomd img {  
+    position: relative;  
+    width: 120px;  
+    height: auto;  
+    display: block;  
+    top: 10px;  
+}  
 
-.logomd img{
-    position: relative;
-    width: 120px;
-    height: auto;
-    display: block;
-    top: -160px;
-}
+.texto1 {  
+    font-family: "regular", sans-serif;  
+    font-size: 40px;  
+    color: black;  
+    margin-top: 10px;  
+    position: relative;  
+    top: 10px;  
+    width: 936px;  
+}  
 
-.texto1{
-font-family:"regular",sans-serif;
-font-size: 40px;
-color: black;
-margin-top: 10px;
-position: relative;
-top: -140px;
-width: 650px;
-}
+.fotoperfil {  
+    position: relative;  
+    width: 80px;  
+    height: auto;  
+    display: block;  
+    left: -13%;
+    top: -30px;
+}  
 
-.fotoperfil{
-    position: relative;
-    width: 120px;
-    height: auto;
-    display: block;
-}
+.texto2 {  
+    font-family: "regular", sans-serif;  
+    font-size: 40px;  
+    color: black;  
+    margin-top: 10px;  
+    top: -50px;  
+    position: relative;  
+}  
 
-.texto2{
-    font-family: "regular", sans-serif;
-    font-size: 40px;
-    color: black;
-    margin-top: 10px;
-    top: 50px;
-    position: relative;
+.texto3 {  
+    font-family: "light", sans-serif;  
+    font-size: 20px;  
+    color: black;  
+    position: relative;  
+    top: -30px;  
+    opacity: 50%;  
+}  
 
-}
+/* Media Query para pantallas de 400px o menos */  
+@media (max-width: 400px) {  
+    .rectangulo {  
+        width: 95vw; /* Ajustar el ancho para pantallas pequeñas */  
+        padding: 10px; /* Reducir el padding */  
+    }  
 
-.texto3{
-    font-family: "light",sans-serif;
-    font-size: 20px;
-    color: black;
-    position: relative;
-    top: 100px;
-    opacity: 50%;
-}
+    .logomd img,  
+    .fotoperfil {  
+        width: 60px; /* Hacer las imágenes más pequeñas */  
+    }  
+
+    .texto1,  
+    .texto2 {  
+        font-size: 20px; /* Ajustar el tamaño de las fuentes */  
+    }  
+
+    .texto3 {  
+        font-size: 7px; /* Ajustar el tamaño de la fuente */  
+    }  
+}  

@@ -1,0 +1,52 @@
+@keyframes fadeInOut {
+    0% { opacity: 0; }   /* Comienza invisible */
+    50% { opacity: 1; }  /* Se hace visible */
+    100% { opacity: 0; } /* Se vuelve a ocultar */
+}
+
+
+@font-face {
+    font-family: "light";
+    src: url("../fuentes/MyriadPro-Light.otf");
+}
+
+@font-face {
+    font-family:"regular" ;
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+}
+
+body{
+    background-color: black;
+}
+.fondo {
+    position: relative; 
+    width: 100%;
+    height: 0;
+    padding-top: 0%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+
+.icono{
+    position: relative;
+    top: -982px;
+    left: 962px;
+    width: 197px;
+    height: 176px;
+    animation: fadeInOut 1s infinite;
+}
+@media screen and (max-width: 430px) {
+    .fondo {
+        padding-top: 0%; /* Ajusta para formato vertical */
+        height: -500vh;
+        transform: scale(2.1); 
+    }
+
+    .icono {
+        
+        top: -800px; /* Ajusta su posiciÃ³n */
+        left: 430px;
+    }
+}
