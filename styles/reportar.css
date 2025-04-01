@@ -179,3 +179,25 @@ header{
     top: -380px;
     left: 20px;
 }
+
+.clasificar {  
+    display: grid;  
+    position: relative;
+    top: -300px;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */  
+    gap: 20px; /* Espacio entre las celdas */  
+    padding: 20px; /* Espacio alrededor de la cuadrícula */  
+}  
+
+.block1 {  
+    border: 1px solid #ccc; /* Borde alrededor de cada bloque */  
+    border-radius: 8px; /* Bordes redondeados */  
+    padding: 15px; /* Espacio interno */  
+    background-color: #f9f9f9; /* Color de fondo */  
+    text-align: center; /* Centrar el texto */  
+}  
+
+.casillas {  
+    margin: 5px 0; /* Espacio vertical entre elementos de texto */  
+}  
+
