@@ -1,0 +1,181 @@
+@font-face {
+    font-family:"regular" ;
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family:"light" ;
+    src: url("../fuentes/MyriadPro-Light.otf");
+}
+
+body{
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.mas img{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 31px;
+    height: 31px;
+}
+
+.menos img{
+    position: relative;
+    top: -10px;
+    left: 1200px;
+    width: 34px;
+    height: 38px;
+    background-image: url('imagenes/escarabajo.png');
+    background-size: cover;
+}
+
+.campanita img{
+    position: relative;
+    top: -38px;
+    left: 1700px;
+    width: 21px;
+    height: 20px;
+}
+
+.pedro img{
+    position: relative;
+    top: -80px;
+    left: 1780px;
+    width: 53px;
+    height: 53px;
+
+}
+
+.logo img{
+    position: relative;
+    top: -130px;
+    left: 950px;
+    width: 42px;
+    height: 37px;
+}
+
+.ajustes img{
+    position: relative;
+    left: 1650px;
+    top: -160px;
+    width: 19px;
+
+}
+
+.interrogacion img{
+    position: relative;
+    top: -190px;
+    width: 34px;
+    height: 34px;
+    left: 1450px;
+}
+
+.basura img{
+    position: relative;
+    top: -230px;
+    width: 25px;
+    height: 32px;
+    left: 600px;
+}
+
+
+.refrescar img{
+    position: relative;
+    top: -262px;
+    width: 27px;
+    height: 27px;
+    left: 310px;
+}
+
+
+
+.link1{
+    font-family: "regular";
+    position: relative;
+    top: -92px;
+    left: 60px;
+    size: 24px;
+}
+
+.link2{
+    font-family: "regular";
+    position: relative;
+    top: -150px;
+    left: 345px;
+    size: 24px;
+}
+
+.link3{
+    font-family: "regular";
+    position: relative;
+    top: -210px;
+    left: 630px;
+    size: 24px;
+}
+
+.link4{
+    font-family: "regular";
+    position: relative;
+    top: -270px;
+    left: 1250px;
+    size: 24px;
+}
+
+.link5{
+    font-family: "regular";
+    position: relative;
+    top: -330px;
+    left: 1500px;
+    size: 24px;
+}
+
+.link1::after,
+.link2::after,
+.link3::after 
+.link4::after
+.link5::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(245, 142, 9);
+    transition: width 0.3s ease-in-out;
+}
+
+.link1:hover::after,
+.link2:hover::after,
+.link3:hover::after
+.link4:hover::after 
+.link5:hover::after{
+    width: 100%;
+}
+
+.titulo{
+    font-family: "regular";
+    color: rgba(255, 119, 0, 0.853);
+    font-size: 80px;
+    position: relative;
+    top: -340px;
+    left: 10px;
+}
+
+.enunciado{
+    font-family: "light";
+    font-size: 20px;
+    opacity: 50%;
+    position: relative;
+    top: -380px;
+    left: 20px;
+}
