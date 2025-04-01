@@ -13,12 +13,12 @@ body{
 header{
     position: relative;
     border: 1px solid black;
-    height: 100px;
+    height: 60px;
 }
 
 .mas img{
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 10px;
     width: 31px;
     height: 31px;
@@ -26,8 +26,8 @@ header{
 
 .menos img{
     position: relative;
-    top: -10px;
-    left: 1200px;
+    top: -25px;
+    left: 1300px;
     width: 34px;
     height: 38px;
     background-image: url('imagenes/escarabajo.png');
@@ -41,16 +41,16 @@ header{
 }
 .campanita img{
     position: relative;
-    top: -38px;
-    left: 1700px;
+    top: -55px;
+    left: 1780px;
     width: 21px;
     height: 20px;
 }
 
 .pedro img{
     position: relative;
-    top: -80px;
-    left: 1780px;
+    top: -95px;
+    left: 1830px;
     width: 53px;
     height: 53px;
 
@@ -58,7 +58,7 @@ header{
 
 .logo img{
     position: relative;
-    top: -130px;
+    top: -150px;
     left: 950px;
     width: 42px;
     height: 37px;
@@ -66,35 +66,35 @@ header{
 
 .ajustes img{
     position: relative;
-    left: 1650px;
-    top: -160px;
+    left: 1730px;
+    top: -177px;
     width: 19px;
 
 }
 
 .interrogacion img{
     position: relative;
-    top: -190px;
+    top: -210px;
     width: 34px;
     height: 34px;
-    left: 1450px;
+    left: 1550px;
 }
 
 .basura img{
     position: relative;
-    top: -230px;
+    top: -250px;
     width: 25px;
     height: 32px;
-    left: 600px;
+    left: 700px;
 }
 
 
 .refrescar img{
     position: relative;
-    top: -262px;
+    top: -285px;
     width: 27px;
     height: 27px;
-    left: 310px;
+    left: 360px;
 }
 
 .titulo{
