@@ -1,0 +1,291 @@
+@font-face {
+    font-family:"regular" ;
+    src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
+}
+
+body{
+    background-color: #b6b5b5;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.mas img{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    width: 31px;
+    height: 31px;
+}
+
+.menos img{
+    position: relative;
+    top: -5px;
+    left: 1200px;
+    width: 34px;
+    height: 38px;
+    background-image: url('imagenes/escarabajo.png');
+    background-size: cover;
+}
+
+.menos :hover{
+    animation: animacion-hover 0.5s steps(5) infinite;
+    
+
+}
+.campanita img{
+    position: relative;
+    top: -38px;
+    left: 1700px;
+    width: 21px;
+    height: 20px;
+}
+
+.pedro img{
+    position: relative;
+    top: -80px;
+    left: 1780px;
+    width: 53px;
+    height: 53px;
+
+}
+
+.logo img{
+    position: relative;
+    top: -130px;
+    left: 950px;
+    width: 42px;
+    height: 37px;
+}
+
+.ajustes img{
+    position: relative;
+    left: 1650px;
+    top: -160px;
+    width: 19px;
+
+}
+
+.interrogacion img{
+    position: relative;
+    top: -195px;
+    width: 34px;
+    height: 34px;
+    left: 1450px;
+}
+
+.basura img{
+    position: relative;
+    top: -230px;
+    width: 25px;
+    height: 32px;
+    left: 600px;
+}
+
+
+.refrescar img{
+    position: relative;
+    top: -265px;
+    width: 27px;
+    height: 27px;
+    left: 310px;
+}
+
+.titulo{
+    font-family: "regular";
+    position: relative;
+    left:850px;
+    width: 346px;
+    height: 40px;
+}
+
+.texto{
+    font-family: "regular";
+    position: relative;
+    left: 680px;
+}
+
+.titulos{
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    gap: 50px;
+    width: 1700px;
+    height:81px ;
+}
+
+.ind1{
+    font-family:"regular";
+    font-size: 20px;
+}
+
+.block1{
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Crea 9 columnas automáticas */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+.block1 {
+    border: 1px solid rgb(116, 116, 116);
+    width: 1700px;
+    height:81px ;
+    border-radius: 100px;
+    font-family: "regular";
+    position: relative;
+    top: -15px;
+}
+
+.cell {
+    padding: 5px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.class {
+    font-weight: bold;
+}
+.link1{
+    position: relative;
+    left: 50px;
+    top: -70px;
+    font-family: "regular";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.link2{
+    position: relative;
+    left: 350px;
+    top: -105px;
+    font-family: "regular";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.link3{
+    position: relative;
+    left: 640px;
+    top: -140px;
+    font-family: "regular";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.link4{
+    position: relative;
+    left: 1250px;
+    top: -185px;
+    font-family: "regular";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.link5{
+    position: relative;
+    left: 1500px;
+    top: -220px;
+    font-family: "regular";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.cajita{
+    position: relative;
+    top: -100px;
+    left:610px;
+    width: 800px;
+    height: 900px;
+    border: 4px solid black;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.text1{
+    position: relative;
+    top: -0px;
+    left: 28%;
+    font-family: "regular";
+    font-size: 50px;
+}
+.cajita2{
+    position: relative;
+    top: -40px;
+    left:70px;
+    width: 600px;
+    height: 100px;
+    border: 4px solid rgb(139, 81, 4);
+    border-radius: 11px;
+    background-color: rgb(255, 124, 2);
+}
+.text2{
+    position: relative;
+    top: -0px;
+    left: 8%;
+    font-family: "regular";
+    font-size: 20px;
+}
+.cajita3{
+    position: relative;
+    top: 90px;
+    left:75px;
+    width: 600px;
+    height: 100px;
+    border: 4px solid rgb(139, 81, 4);
+    border-radius: 11px;
+    background-color: rgb(255, 124, 2);
+}
+.text3{
+    position: relative;
+    top: -0px;
+    left: 8%;
+    font-family: "regular";
+    font-size: 20px;
+}
+.tr{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 300px;
+    height: 100px;
+    border: 5px solid rgb(226, 136, 0);
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px rgba(223, 91, 4, 0.5);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+.tr :hover{
+    position: relative;
+    top: -20px;
+    left: 10px;
+    text-align: center;
+  transform: scale(1.1);
+  background: rgb(255, 102, 0);
+  border-radius: 50px;
+  border: color( red green blue);
+  width: 280px;
+  height: 90px;
+    box-shadow: 10px 10px 20px rgba(223, 91, 4, 0.5);
+    cursor: pointer;
+    
+}
+
+.text4{
+    position: relative;
+    top: -0px;
+    left: 35%;
+    font-family: "regular";
+    font-size: 20px;
+}
