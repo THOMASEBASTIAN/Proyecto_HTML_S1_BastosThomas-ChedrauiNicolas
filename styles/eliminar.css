@@ -430,3 +430,8 @@ content: "31%";
 .link5:hover::after{
     width: 100%;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}

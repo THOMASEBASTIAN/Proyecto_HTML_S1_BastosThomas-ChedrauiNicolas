@@ -328,3 +328,8 @@ header{
     top: -2050px;
     left: 850px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
