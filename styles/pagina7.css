@@ -435,3 +435,77 @@ a {
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 430px) and (max-height: 932px) {
+    body {
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        overflow-x: hidden; /* Previene el desbordamiento lateral */
+    }
+
+    header {
+        position: relative;
+        border: 1px solid black;
+        height: 12vh; /* Reducido para evitar solapamiento */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+
+    .mas img, .menos img, .campanita img, .pedro img, .logo img, .ajustes img,
+    .interrogacion img, .basura img, .refrescar img {
+        width: 8vw;
+        height: 8vw;
+        position: static; /* Evita el posicionamiento relativo innecesario */
+    }
+
+    .titulo {
+        font-family: "regular";
+        font-size: 1.8rem; /* Ajustado para evitar desbordamiento */
+        text-align: center;
+        width: 100%;
+    }
+
+    .texto {
+        font-family: "regular";
+        font-size: 1rem;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .titulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2vw;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .progress-bar, .progress-bar2, .progress-bar3, .progress-bar4, .progress-bar5, .progress-bar6 {
+        width: 15vw;
+        height: 15vw;
+        font-size: 1rem; /* Ajuste para legibilidad */
+    }
+
+    .rayitas img {
+        width: 8vw;
+        height: 8vw;
+        margin: 2vh;
+    }
+
+    .link1, .link2, .link3, .link4, .link5 {
+        font-size: 1rem;
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
