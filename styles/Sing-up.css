@@ -289,3 +289,127 @@ header{
     font-family: "regular";
     font-size: 20px;
 }
+@media screen and (max-width: 430px) {
+    body {
+        max-height: 930px;
+        overflow-y: auto;
+    }
+    
+    .cajita {
+        width: 30%;
+        left: 5%;
+        height: 300px;
+    }
+    
+  .texto {
+        left: 2%;
+        text-align: center;
+    }
+   
+    
+    .block1 {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .titulos{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .mas img {
+        left: 5%;
+        transform: translateX(-50%);
+        top: 40px;
+        position: relative;
+    }
+     .menos img {
+        left: 18%;
+        transform: translateX(-50%);
+        top: 0;
+        position: relative;
+    }
+    .campanita img  {
+        left: 85%;
+        transform: translateX(-50%);
+        top: 0px;
+        position: relative;
+    }
+     .pedro img {
+        left: 90%;
+        width: 50px;
+        transform: translateX(-50%);
+        top: -80px;
+        position: relative;
+    }
+     .logo img {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -155px;
+        position: relative;
+        width: 75px;
+        height: 80px;
+    }
+    .ajustes img{
+        left: 95%;
+        transform: translateX(-50%);
+        top: -165px;
+        position: relative;
+    }
+     .interrogacion img {
+        left: 32%;
+        width: 40px;
+        transform: translateX(-50%);
+        top: -225px;
+        position: relative;
+    }
+ .basura img {
+        left: 67%;
+        transform: translateX(-50%);
+        top: -260px;
+        position: relative;
+    }
+    .refrescar img{
+        left: 75%;
+        top: -295px;
+        position: relative;
+    }
+    .link1, .link2, .link3, .link4, .link5 {
+        display: none;
+    }
+    .cajita{
+      width: 400px;
+      top:240px;
+      left:10px ;
+      height: 900px;
+    }
+    .text1{
+     width: 10%;
+     position: relative;
+     left: 30px;
+    }
+    .cajita2{
+        width: 350px;
+        left: 10px;
+ 
+    }
+    .cajita3{
+     left: 10px;
+     width: 350px;
+    }
+    .tr{
+       width: 350;
+       left: 10px;
+    }
+
+    .text4{
+        position: relative;
+        top: -0px;
+        left: 35%;
+        font-family: "regular";
+        font-size: 20px;
+}
+}
