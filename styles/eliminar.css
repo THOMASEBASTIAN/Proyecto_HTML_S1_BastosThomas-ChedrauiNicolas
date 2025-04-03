@@ -466,26 +466,26 @@ a {
         position: relative;
     }
      .menos img {
-        left: 188px;
+        left: 218px;
         transform: translateX(-50%);
         top: 5px;
         position: relative;
     }
     .campanita img  {
-        left: 1125%;
+        left: 1225%;
         transform: translateX(-50%);
         top: 39px;
         position: relative;
     }
      .pedro img {
-        left: 90%;
+        left: 250px;
         width: 50px;
         transform: translateX(-50%);
-        top: 130px;
+        top: -10px;
         position: relative;
     }
      .logo img {
-        left: 25px;
+        left: 13px;
         transform: translateX(-50%);
         top: 5px;
         position: relative;
