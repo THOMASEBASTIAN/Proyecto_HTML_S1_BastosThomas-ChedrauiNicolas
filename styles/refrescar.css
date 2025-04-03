@@ -327,3 +327,107 @@ a {
     color: black;
     text-decoration: none;
 }
+@media screen and (max-width: 430px) {
+    body {
+        max-height: 930px;
+        overflow-y: auto;
+    }
+    .mas img {
+        left: 5%;
+        transform: translateX(-50%);
+        top: 40px;
+        position: relative;
+    }
+     .menos img {
+        left: 18%;
+        transform: translateX(-50%);
+        top: 0;
+        position: relative;
+    }
+    .campanita img  {
+        left: 85%;
+        transform: translateX(-50%);
+        top: 0px;
+        position: relative;
+    }
+     .pedro img {
+        left: 90%;
+        width: 50px;
+        transform: translateX(-50%);
+        top: -80px;
+        position: relative;
+    }
+     .logo img {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -155px;
+        position: relative;
+        width: 75px;
+        height: 80px;
+    }
+    .ajustes img{
+        left: 95%;
+        transform: translateX(-50%);
+        top: -165px;
+        position: relative;
+    }
+     .interrogacion img {
+        left: 32%;
+        width: 40px;
+        transform: translateX(-50%);
+        top: -225px;
+        position: relative;
+    }
+ .basura img {
+        left: 67%;
+        transform: translateX(-50%);
+        top: -260px;
+        position: relative;
+    }
+    .refrescar img{
+        left: 75%;
+        top: -295px;
+        position: relative;
+    }
+    .link1, .link2, .link3, .link4, .link5 {
+        display: none;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
+    border: 1px solid rgb(133, 133, 133);
+    width: 90vw; /* Para que se ajuste bien en móviles */
+    height: auto; /* Ajustable según el contenido */
+    border-radius: 30px; /* Menos redondeado para más espacio */
+    margin-top: 15px;
+    font-family: "regular";
+    position: relative;
+    top: -240px;
+    display: flex;
+    flex-direction: column; /* Ahora los elementos estarán en lista */
+    align-items: flex-start; /* Alineación a la izquierda */
+    padding: 15px;
+    gap: 5px; /* Espacio entre elementos */
+    overflow: hidden;
+    left: 10px;
+}
+.boton{ 
+   left: 5px;
+   width: 434px;
+
+}
+.icono   {
+    left: 53%;
+    transform: translateX(-50%);
+    top: -150px;
+    position: relative;
+     
+}
+.enunciado{
+    font-family: "regular";
+    font-size: 20px;
+    opacity: 100%;
+    position: relative;
+    top: -240px;
+    left: 120px;
+}
+}
