@@ -212,3 +212,130 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 430px) {
+    /* Ajuste de tamaño y posicionamiento */
+    .mas img{
+        width: 20vw;
+        height: 20vw;
+        position: relative;
+        left: 20px;
+    }
+
+    .menos img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .campanita img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .pedro img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .logo img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .ajustes img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .interrogacion img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .basura img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+    }
+
+    .refrescar img {
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        top: -330px;
+        left: 50px;
+    }
+
+    header{
+
+    }
+
+    .titulo {
+        font-size: 40px;
+        top: -120px;
+        left: 10px;
+    }
+
+    .enunciado {
+        font-size: 16px;
+        top: -150px;
+        left: 20px;
+    }
+
+    .link1{
+        font-size: 18px;
+        position: relative;
+        left: 13px;
+        top: -50px;
+    }
+
+    .link2{
+        font-size: 18px;
+    }
+
+    .link3{
+        font-size: 18px;
+    }
+
+    .link4{
+        font-size: 18px;
+    }
+
+    .link5 {
+        font-size: 18px;
+    }
+
+    .clasificar {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+        padding: 10px;
+        top: -150px;
+    }
+
+    .block1 {
+        padding: 10px;
+    }
+
+    .icono {
+        top: 180px;
+        left: 200px;
+    }
+
+    .mas img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menos img {
+        left: 800px;
+    }
+
+    .basura img {
+        left: 400px;
+    }
+}
+
