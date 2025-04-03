@@ -294,7 +294,6 @@ header{
         max-height: 930px;
         overflow-y: auto;
     }
-    
     .cajita {
         width: 30%;
         left: 5%;
@@ -323,13 +322,13 @@ header{
     .mas img {
         left: 5%;
         transform: translateX(-50%);
-        top: 40px;
+        top: 50px;
         position: relative;
     }
      .menos img {
-        left: 18%;
+        left: 279px;
         transform: translateX(-50%);
-        top: 0;
+        top: 10px;
         position: relative;
     }
     .campanita img  {
@@ -360,20 +359,20 @@ header{
         position: relative;
     }
      .interrogacion img {
-        left: 32%;
+        left: 326px;
         width: 40px;
         transform: translateX(-50%);
-        top: -225px;
+        top: -222px;
         position: relative;
     }
  .basura img {
-        left: 67%;
+        left: 137px;
         transform: translateX(-50%);
         top: -260px;
         position: relative;
     }
     .refrescar img{
-        left: 75%;
+        left: 65px;
         top: -295px;
         position: relative;
     }

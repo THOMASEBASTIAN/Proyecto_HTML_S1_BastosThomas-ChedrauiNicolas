@@ -450,6 +450,7 @@ a {
 
     header {
         position: relative;
+        background-color: #e0e0e0;
         border: 1px solid black;
         height: 12vh; /* Reducido para evitar solapamiento */
         display: flex;
@@ -458,13 +459,63 @@ a {
         padding: 0 5vw;
     }
 
-    .mas img, .menos img, .campanita img, .pedro img, .logo img, .ajustes img,
-    .interrogacion img, .basura img, .refrescar img {
-        width: 8vw;
-        height: 8vw;
-        position: static; /* Evita el posicionamiento relativo innecesario */
+    .mas img {
+        left: 5%;
+        transform: translateX(-50%);
+        top: -2px;
+        position: relative;
     }
-
+     .menos img {
+        left: 188px;
+        transform: translateX(-50%);
+        top: 5px;
+        position: relative;
+    }
+    .campanita img  {
+        left: 1125%;
+        transform: translateX(-50%);
+        top: 39px;
+        position: relative;
+    }
+     .pedro img {
+        left: 90%;
+        width: 50px;
+        transform: translateX(-50%);
+        top: 130px;
+        position: relative;
+    }
+     .logo img {
+        left: 25px;
+        transform: translateX(-50%);
+        top: 5px;
+        position: relative;
+        width: 55px;
+        
+    }
+    .ajustes img{
+        left: 145px;
+        transform: translateX(-50%);
+        top: 39px;
+        position: relative;
+    }
+     .interrogacion img {
+        left: 35px;
+        width: 40px;
+        transform: translateX(-50%);
+        top: 5px;
+        position: relative;
+    }
+ .basura img {
+        left: -207px;
+        transform: translateX(-50%);
+        top: 9px;
+        position: relative;
+    }
+    .refrescar img{
+        left: -315px;
+        top: 5px;
+        position: relative;
+    }
     .titulo {
         font-family: "regular";
         font-size: 1.8rem; /* Ajustado para evitar desbordamiento */

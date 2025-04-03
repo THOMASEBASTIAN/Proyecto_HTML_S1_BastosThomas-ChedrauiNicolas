@@ -14,6 +14,7 @@ header{
     position: relative;
     border: 1px solid black;
     height: 100px;
+    top: -75px;
 }
 
 .mas img{
@@ -42,18 +43,9 @@ header{
     height: 20px;
 }
 
-.pedro img{
-    position: relative;
-    top: -80px;
-    left: 1780px;
-    width: 53px;
-    height: 53px;
-
-}
-
 .logo img{
     position: relative;
-    top: -130px;
+    top: -70px;
     left: 950px;
     width: 42px;
     height: 37px;
@@ -62,14 +54,14 @@ header{
 .ajustes img{
     position: relative;
     left: 1650px;
-    top: -160px;
+    top: -104px;
     width: 19px;
 
 }
 
 .interrogacion img{
     position: relative;
-    top: -190px;
+    top: -137px;
     width: 34px;
     height: 34px;
     left: 1450px;
@@ -77,7 +69,7 @@ header{
 
 .basura img{
     position: relative;
-    top: -230px;
+    top: -175px;
     width: 25px;
     height: 32px;
     left: 600px;
@@ -86,7 +78,7 @@ header{
 
 .refrescar img{
     position: relative;
-    top: -262px;
+    top: -205px;
     width: 27px;
     height: 27px;
     left: 310px;
@@ -97,7 +89,7 @@ header{
 .link1{
     font-family: "regular";
     position: relative;
-    top: -92px;
+    top: -170px;
     left: 60px;
     size: 24px;
 }
@@ -105,7 +97,7 @@ header{
 .link2{
     font-family: "regular";
     position: relative;
-    top: -150px;
+    top: -230px;
     left: 345px;
     size: 24px;
 }
@@ -113,7 +105,7 @@ header{
 .link3{
     font-family: "regular";
     position: relative;
-    top: -210px;
+    top: -290px;
     left: 630px;
     size: 24px;
 }
@@ -121,7 +113,7 @@ header{
 .link4{
     font-family: "regular";
     position: relative;
-    top: -270px;
+    top: -350px;
     left: 1250px;
     size: 24px;
 }
@@ -129,7 +121,7 @@ header{
 .link5{
     font-family: "regular";
     position: relative;
-    top: -330px;
+    top: -410px;
     left: 1500px;
     size: 24px;
 }
@@ -327,70 +319,146 @@ a {
     color: black;
     text-decoration: none;
 }
-@media screen and (max-width: 430px) {
+
+.menu-container {
+    position: relative;
+    top: 10px;
+    left: 1750px;
+    display: inline-block;
+}
+
+.menu-container img{
+    width: 70px;
+}
+
+.menu-image {
+    cursor: pointer;
+    width: 100px; /* Ajusta según necesites */
+}
+
+.dropdown-menu {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+}
+
+/* Mostrar el menú cuando se pasa el cursor sobre la imagen */
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 430px) and (max-height: 932px){
+
     body {
-        max-height: 930px;
-        overflow-y: auto;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        overflow-x: hidden; /* Previene el desbordamiento lateral */
     }
+
+    header {
+        position: relative;
+        background-color: #e0e0e0;
+        border: 1px solid black;
+        height: 12vh; /* Reducido para evitar solapamiento */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+
     .mas img {
         left: 5%;
         transform: translateX(-50%);
-        top: 40px;
+        top: -2px;
         position: relative;
     }
      .menos img {
-        left: 18%;
+        left: 188px;
         transform: translateX(-50%);
-        top: 0;
+        top: 5px;
         position: relative;
     }
     .campanita img  {
-        left: 85%;
+        left: 1125%;
         transform: translateX(-50%);
-        top: 0px;
+        top: 39px;
         position: relative;
     }
      .pedro img {
-        left: 90%;
+        left: 290%;
         width: 50px;
         transform: translateX(-50%);
-        top: -80px;
+        top: -90px;
         position: relative;
     }
      .logo img {
-        left: 50%;
+        left: 25px;
         transform: translateX(-50%);
-        top: -155px;
+        top: 5px;
         position: relative;
-        width: 75px;
-        height: 80px;
+        width: 55px;
+        
     }
     .ajustes img{
-        left: 95%;
+        left: 145px;
         transform: translateX(-50%);
-        top: -165px;
+        top: 39px;
         position: relative;
     }
      .interrogacion img {
-        left: 32%;
+        left: 35px;
         width: 40px;
         transform: translateX(-50%);
-        top: -225px;
+        top: 5px;
         position: relative;
     }
  .basura img {
-        left: 67%;
+        left: -207px;
         transform: translateX(-50%);
-        top: -260px;
+        top: 9px;
         position: relative;
     }
     .refrescar img{
-        left: 75%;
-        top: -295px;
+        left: -315px;
+        top: 5px;
         position: relative;
     }
     .link1, .link2, .link3, .link4, .link5 {
         display: none;
+        opacity: 0%;
+}
+
+.titulo{
+    position: relative;
+    top: -90px;
+    left: 60px;
+    width: 250px;
+    font-size:50px ;
+    
+}
+
+.cell{
+    text-align: center;
+    position: relative;
+    left: 150px;
 }
 
 .block1, .block2, .block3, .block4, .block5, .block6 {
@@ -401,24 +469,37 @@ a {
     margin-top: 15px;
     font-family: "regular";
     position: relative;
-    top: -240px;
+    top: -160px;
     display: flex;
     flex-direction: column; /* Ahora los elementos estarán en lista */
     align-items: flex-start; /* Alineación a la izquierda */
     padding: 15px;
     gap: 5px; /* Espacio entre elementos */
     overflow: hidden;
-    left: 10px;
+    left: 5px;
 }
+
+.progress-bar,.progress-bar2,.progress-bar3{
+    position: relative;
+    left: 170px;
+}
+
+.class{
+    position: relative;
+    left: 160px;
+}
+
 .boton{ 
-   left: 5px;
+   position: relative;
+    top: -140px;
+    left: -1px;
    width: 434px;
 
 }
 .icono   {
     left: 53%;
     transform: translateX(-50%);
-    top: -150px;
+    top: -90px;
     position: relative;
      
 }
@@ -427,7 +508,9 @@ a {
     font-size: 20px;
     opacity: 100%;
     position: relative;
-    top: -240px;
+    top: -100px;
     left: 120px;
+    height: 100px;
+    opacity: 50%;
 }
 }
