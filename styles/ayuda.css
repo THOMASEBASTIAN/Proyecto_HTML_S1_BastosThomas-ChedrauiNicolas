@@ -333,3 +333,182 @@ a {
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 430px) {
+    /* Ajuste de tamaÃ±o y posicionamiento */
+    .mas img{
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        left: 20px;
+        top: 35px;
+    }
+
+    .menos img{
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: 5px;
+        left: 268px !important;
+    }
+
+    .campanita img{
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: -55px;
+        left: 390px;
+    }
+
+    .pedro img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+        top: -53px;
+        left: 370px;
+    }
+
+    .logo img{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+        top: -110px;
+        left: 195px;
+    }
+
+    .ajustes img{
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: -180px;
+        left: 350px;
+    }
+
+    .interrogacion img{
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: -178px;
+        left: 320px;
+    }
+
+    .basura img{
+        width: 6vw;
+        height: 6vw;
+        left: 130px !important;
+        position: relative;
+        top: -205px;
+    }
+
+    .refrescar img {
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: -235px;
+        left: 75px;
+    }
+
+    header{
+
+    }
+
+    .titulo {
+        font-size: 40px;
+        top: -140px;
+        left: 50px;
+    }
+
+    .enunciado {
+        font-size: 13px;
+        top: -150px;
+        left: 20px;
+    }
+
+    .link1{
+        font-size: 15px;
+        position: relative;
+        left: 13px;
+        top: -50px;
+    }
+
+    .link2{
+        font-size: 13px;
+        position: relative;
+        top: -77px;
+        left: 65px;
+    }
+
+    .link3{
+        font-size: 13px;
+        position: relative;
+        top: -102px;
+        left: 125px;
+    }
+
+    .link4{
+        font-size: 13px;
+        top: -125px;
+        left: 260px;
+    }
+
+    .link5 {
+        font-size: 13px;
+        top: -150px;
+        left: 320px;
+    }
+
+    .busqueda{
+        position: relative;
+        top: -130px;
+        left: 25px;
+        width: 225px;
+    }
+
+    .boton{
+        position: relative;
+        top: -165px;
+        left: 270px;
+
+    }
+
+    .recuadro{
+        position: relative;
+        top: 600px;
+        left: -700px;
+        -webkit-transform: rotate(90deg);
+    }
+
+    .cuadro1{
+        position: relative;
+        height: 430px;
+        top: -550px;
+        left: 60px;
+    }
+
+    .cuadro2{
+        position: relative;
+        height: 430px;
+        top: -500px;
+        left: 60px;
+    }
+
+    .cuadro3{
+        position: relative;
+        height: 390px;
+        top: -450px;
+        left: 60px;
+    }
+
+    .cuadro4{
+        position: relative;
+        height: 420px;
+        top: -410px;
+        left: 60px;
+    }
+
+    .icono{
+        position: relative;
+        top: -350px;
+        left: 170px;
+    }
+}
