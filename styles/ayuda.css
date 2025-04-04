@@ -2,7 +2,47 @@
     font-family:"regular" ;
     src: url("../fuentes/MYRIADPRO-REGULAR.OTF");
 }
+.dropdown-menu {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    width: 150px;
+}
 
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+}
+
+/* Mostrar el menú cuando se pasa el cursor sobre la imagen */
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
+.menu-container {
+    position: relative;
+    top: -1740px;
+    left: 1750px;
+    display: inline-block;
+}
+
+.menu-container img{
+    width: 70px;
+}
+
+.menu-image {
+    cursor: pointer;
+    width: 100px; /* Ajusta según necesites */
+}
 body{
     background-color: #ffff;
     background-repeat: no-repeat;

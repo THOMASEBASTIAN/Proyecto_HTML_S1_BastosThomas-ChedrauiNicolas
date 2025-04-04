@@ -1,100 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos esenciales para codificación y responsividad -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reportar</title>
-    <link rel="stylesheet" href="./styles/reportar.css">
 
+    <!-- Enlace a la hoja de estilos externa específica para esta página -->
+    <link rel="stylesheet" href="./styles/reportar.css">
 </head>
+
 <body>
-    
+
+    <!-- Encabezado con íconos de navegación -->
     <header>
+        <!-- Enlaces a diferentes páginas del sistema, cada uno representado por un ícono -->
         <a href="carga1.html">
             <div class="mas"><img src="./imagenes/bolitamas.png" alt=""></div>
         </a>
-        
         <a href="carga2.html">
             <div class="menos"><img src="./imagenes/escarabajo.png" alt=""></div>
         </a>
-            <div class="campanita"><img src="./imagenes/campanita.png" alt=""></div>
-            <div class="pedro"><img src="./imagenes/pp@2x.png" alt=""></div>
+        <div class="campanita"><img src="./imagenes/campanita.png" alt=""></div>
+        <div class="pedro"><img src="./imagenes/pp@2x.png" alt=""></div>
         <a href="carga3.html">
             <div class="logo"><img src="./imagenes/kairo.png" alt=""></div>
         </a>
-            <div class="ajustes"><img src="./imagenes/ajustes.png" alt=""></div>
+        <div class="ajustes"><img src="./imagenes/ajustes.png" alt=""></div>
         <a href="carga4.html">
             <div class="interrogacion"><img src="./imagenes/bolitainterrogacion.png" alt=""></div>
         </a>
-        
         <a href="carga5.html">
             <div class="basura"><img src="./imagenes/basura.png" alt=""></div>
         </a>
-        
         <a href="carga6.html">
             <div class="refrescar"><img src="./imagenes/reload.png" alt=""></div>
         </a>
-        
-        </header>
+    </header>
 
-<h1 class="link1">añadir</h1></a>
-<h1 class="link2">refrescar</h1></a>
-<h1 class="link3">eliminar</h1></a>
-<h1 class="link4">reportar</h1></a>
-<h1 class="link5">ayuda</h1></a>
+    <!-- Menú de acciones principales (están usando <h1>, pero deberían ser botones o enlaces semánticamente) -->
+        <a href="Sign-Up.html"><h1 class="link1">Añadir</h1></a>
+        <a href="refrescar.html"><h1 class="link2">Refrescar</h1></a>
+        <a href="eliminar.html"><h1 class="link3">Eliminar</h1></a>
+        <a href="reportar.html"><h1 class="link4">Reportar</h1></a>
+        <a href="ayuda.html"><h1 class="link5">Ayuda</h1></a>
 
-<h1 class="titulo">Guia de emojis para reportar problemas</h1>
+    <!-- Título principal de la sección de reporte -->
+    <h1 class="titulo">Guia de emojis para reportar problemas</h1>
 
-<p class="enunciado">Para facilitar la identificación y solución de problemas en la página, use los siguientes emojis al reportar un error:</p>
+    <!-- Texto introductorio explicando cómo usar los emojis para reportar -->
+    <p class="enunciado">Para facilitar la identificación y solución de problemas en la página, use los siguientes emojis al reportar un error:</p>
 
-<div class="clasificar">
-    <div class="block1">
-        <p class="casillas">🔴🪲 </p>
-        <p class="casillas">(Bug/Error):</p>
-        <p class="casillas">Reportar un fallo o error en la página.</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">🔵 🐢</p>
-        <p class="casillas">(Lentitud): </p>
-        <p class="casillas">La página carga muy lento o no responde bien.</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">🟢 🔗 </p>
-        <p class="casillas">(Enlace roto):</p>
-        <p class="casillas">Un enlace no funciona o lleva a la página V</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">🟠 📵</p>
-        <p class="casillas">(Error de acceso):</p>
-        <p class="casillas">Problema para iniciar sesión o acceder a .</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">⚪ 💬 </p>
-        <p class="casillas">(Problema con el chat):</p>
-        <p class="casillas">El chat no responde o tiene fallos.</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">⚫ 🎨 </p>
-        <p class="casillas">(Problema de diseño):</p>
-        <p class="casillas">La página se ve mal o hay elementos</p>
-    </div>
-    <div class="block1">
-        <p class="casillas">🟣 📩 </p>
-        <p class="casillas">(Error en formularios)</p>
-        <p class="casillas">No se pueden enviar datos o hay fallos en los </p>
+    <!-- Contenedor de clasificación de problemas, usando emojis como referencia visual -->
+    <div class="clasificar">
+        <!-- Cada bloque representa un tipo de problema a reportar -->
+        <div class="block1">
+            <p class="casillas">🔴🪲 </p>
+            <p class="casillas">(Bug/Error):</p>
+            <p class="casillas">Reportar un fallo o error en la página.</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">🔵 🐢</p>
+            <p class="casillas">(Lentitud): </p>
+            <p class="casillas">La página carga muy lento o no responde bien.</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">🟢 🔗 </p>
+            <p class="casillas">(Enlace roto):</p>
+            <p class="casillas">Un enlace no funciona o lleva a la página V</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">🟠 📵</p>
+            <p class="casillas">(Error de acceso):</p>
+            <p class="casillas">Problema para iniciar sesión o acceder a .</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">⚪ 💬 </p>
+            <p class="casillas">(Problema con el chat):</p>
+            <p class="casillas">El chat no responde o tiene fallos.</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">⚫ 🎨 </p>
+            <p class="casillas">(Problema de diseño):</p>
+            <p class="casillas">La página se ve mal o hay elementos</p>
+        </div>
+
+        <div class="block1">
+            <p class="casillas">🟣 📩 </p>
+            <p class="casillas">(Error en formularios)</p>
+            <p class="casillas">No se pueden enviar datos o hay fallos en los </p>
+        </div>
+
+        <!-- Imagen decorativa o ícono institucional -->
+        <img class="icono" src="./imagenes/kairo.png" alt="">
     </div>
 
-    <img class="icono" src="./imagenes/kairo.png" alt="">
-</div>
-
-<div class="menu-container">
-    <img src="./imagenes/pp@2x.png" alt="Imagen" class="menu-image">
-    <ul class="dropdown-menu">
-        <li><a href="">Opción 1   &#128512;</a></li>
-        <li><a href="#">Opción 2</a></li>
-        <li><a href="#">Opción 3</a></li>
-    </ul>
-</div>
+    <!-- Menú desplegable secundario con opciones de cuenta -->
+    <div class="menu-container">
+        <img src="./imagenes/pp@2x.png" alt="Imagen de menú" class="menu-image">
+        <ul class="dropdown-menu">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Notificaciones</a></li>
+            <li><a href="#">Historial</a></li>
+            <li><a href="#">Soporte</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="pagina4.html">Cerrar sesión</a></li>
+        </ul>
+    </div>
 
 </body>
 </html>

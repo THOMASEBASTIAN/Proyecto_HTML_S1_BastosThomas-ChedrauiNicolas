@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Codificación de caracteres y configuración para que sea responsive -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=, initial-scale=1.0"> <!-- ⚠️ Valor de 'width' está vacío, debería ser 'width=device-width' -->
+    
+    <!-- Título de la pestaña del navegador -->
+    <title>Sign-Up</title>
+
+    <!-- Enlace a la hoja de estilos externa -->
     <link rel="stylesheet" href="./styles/Sing-up.css"> 
 </head>
+
 <body>
-    
+
+    <!-- Encabezado de navegación con iconos interactivos -->
     <header>
+        <!-- Cada imagen sirve como ícono enlazado a otra página -->
         <a href="carga1.html">
             <div class="mas"><img src="./imagenes/bolitamas.png" alt=""></div>
         </a>
-        
         <a href="carga2.html">
             <div class="menos"><img src="./imagenes/escarabajo.png" alt=""></div>
         </a>
-            <div class="campanita"><img src="./imagenes/campanita.png" alt=""></div>
-            <div class="pedro"><img src="./imagenes/fotoperfilmodificada.png" alt=""></div>
+        <div class="campanita"><img src="./imagenes/campanita.png" alt=""></div>
+        <div class="pedro"><img src="./imagenes/pp@2x.png" alt=""></div>
         <a href="carga3.html">
             <div class="logo"><img src="./imagenes/kairo.png" alt=""></div>
         </a>
-            <div class="ajustes"><img src="./imagenes/ajustes.png" alt=""></div>
+        <div class="ajustes"><img src="./imagenes/ajustes.png" alt=""></div>
         <a href="carga4.html">
             <div class="interrogacion"><img src="./imagenes/bolitainterrogacion.png" alt=""></div>
         </a>
-        
         <a href="carga5.html">
             <div class="basura"><img src="./imagenes/basura.png" alt=""></div>
         </a>
-        
         <a href="carga6.html">
             <div class="refrescar"><img src="./imagenes/reload.png" alt=""></div>
         </a>
-        </a>
-        
-        </header>
-    <h1 class="link1">Añadir</h1>
-    <h1 class="link2"> Refrescar</h1>
-    <h1 class="link3">Eliminar</h1>
-    <h1 class="link4">Reportar</h1>
-    <h1 class="link5">Ayuda</h1>
+    </header>
 
-   <div class=" cajita">
-    <div class="text1"><h1>Añadir</h1></div>
-    <div class="cajita2">
-        <div class="text2"> <h1>Name</h1></div>
-    </div> 
-    <div class="cajita3">
-        <div class="text3"> <h1>Correo</h1></div>
-    <div class="tr">
-         <div class="text4"><h1>Add</h1></div>
+    <!-- Títulos que actúan como enlaces o secciones (no semántico) -->
+    <a href="Sign-Up.html"><h1 class="link1">Añadir</h1></a>
+    <a href="refrescar.html"><h1 class="link2">Refrescar</h1></a>
+    <a href="eliminar.html"><h1 class="link3">Eliminar</h1></a>
+    <a href="reportar.html"><h1 class="link4">Reportar</h1></a>
+    <a href="ayuda.html"><h1 class="link5">Ayuda</h1></a>
 
-    </div> 
-   </div>
+    <!-- Contenedor principal del formulario de registro -->
+    <div class="cajita">
+        <!-- Título del formulario -->
+        <div class="text1">
+            <h1>Añadir</h1>
+        </div>
+
+        <!-- Campo de nombre -->
+        <div class="cajita2">
+            <div class="text2">
+                <h1>Name</h1> <!-- ⚠️ Aquí solo hay un texto, falta input de formulario -->
+            </div>
+        </div>
+
+        <!-- Campo de correo -->
+        <div class="cajita3">
+            <div class="text3">
+                <h1>Correo</h1> <!-- ⚠️ Igual que arriba, falta el input -->
+            </div>
+
+            <!-- Botón para enviar (añadir) -->
+            <div class="tr">
+                <div class="text4">
+                    <h1>Add</h1> <!-- ⚠️ Este debería ser un botón real -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menú desplegable con opciones del usuario -->
+    <div class="menu-container">
+        <img src="./imagenes/pp@2x.png" alt="Imagen de menú" class="menu-image">
+        <ul class="dropdown-menu">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Notificaciones</a></li>
+            <li><a href="#">Historial</a></li>
+            <li><a href="#">Soporte</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="pagina4.html">Cerrar sesión</a></li>
+        </ul>
+    </div>
+
 </body>
 </html>
